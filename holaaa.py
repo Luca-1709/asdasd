@@ -44,9 +44,12 @@
 # else:
 #     print("El número", n3 ,"es el mayor")
 
-n1=float(input("Ingrese un número "))
+# n1=float(input("Ingrese un número "))
 
-if n1 % 2==0:
-    print("El número es par")
-else:
-    print("El número es impar")
+# if n1 % 2==0:
+#     print("El número es par")
+# else:
+#     print("El número es impar")
+
+
+
