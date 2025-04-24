@@ -32,37 +32,37 @@
 # vc1=0
 # vc2=0
 
-cvot=int(input("¿Cuántas personas votarán? "))
+# cvot=int(input("¿Cuántas personas votarán? "))
 
-for i in range (cvot):
-    print("¿Por quíen votará?: 1.- ", c1, " o 2.-", c2)
-    print(f"¿Por quíen votará?: 1.- {c1}, 2.- {c2}")
-    voto=int(input())
-    if voto==1:
-        print("Ha votado por ", c1)
-        vc1=+1
-    elif voto==2:
-        print("Ha votado por ", c2)
-        vc2=+1
-    else:
-        print("Voto invalido")
+# for i in range (cvot):
+#     print("¿Por quíen votará?: 1.- ", c1, " o 2.-", c2)
+#     print(f"¿Por quíen votará?: 1.- {c1}, 2.- {c2}")
+#     voto=int(input())
+#     if voto==1:
+#         print("Ha votado por ", c1)
+#         vc1=+1
+#     elif voto==2:
+#         print("Ha votado por ", c2)
+#         vc2=+1
+#     else:
+#         print("Voto invalido")
 
-if vc1>vc2:
-    print("El ganador es ", c1)
-elif vc2>vc1:
-    print("El ganador es ", c2)
-else:
-    print("Empate")
-
-# palabra=str(input("Ingrese una palabra: "))
-
-# for i in "aeiou":
-#     if i in palabra:
-#         print(i)
+# if vc1>vc2:
+#     print("El ganador es ", c1)
+# elif vc2>vc1:
+#     print("El ganador es ", c2)
+# else:
+#     print("Empate")
 
 palabra=str(input("Ingrese una palabra: "))
-vocales="aeiou"
-palabrav=palabra.find(vocales)
-for i in palabrav:
-    print(i)
+
+for i in "aeiou":
+    if i in palabra:
+        print(i)
+
+# palabra=str(input("Ingrese una palabra: "))
+# vocales="aeiou"
+# palabrav=palabra.find(vocales)
+# for i in palabrav:
+#     print(i)
 
