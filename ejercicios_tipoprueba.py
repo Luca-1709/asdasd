@@ -210,12 +210,12 @@ while True:
                         cant_aut+=1
                         cant_lav_bas+=1
                     case 2:
-                        print("Lavado básico")
+                        print("Lavado Standard")
                         total+=10000
                         cant_aut+=1
                         cant_lav_stand+=1
                     case 3:
-                        print("Lavado básico")
+                        print("Lavado Full")
                         total+=15000
                         cant_aut+=1
                         cant_lav_full+=1
