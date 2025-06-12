@@ -5,12 +5,17 @@ carrito=[]
 valor_carrito=0
 
 while True:
-    print(''' 
-          1.- Ingresar productos
-          2.- Comprar
-          3.- Crear boleta
-          4.- Salir''')
-    op=int(input("A qué menú desea ingresar: "))
+    while True:
+        try:
+            print(''' 
+                1.- Ingresar productos
+                2.- Comprar
+                3.- Crear boleta
+                4.- Salir''')
+            op=int(input("A qué menú desea ingresar: "))
+            break
+        except Exception:
+            print("Ingrese un número entero válido")
     match op:
         case 1:
             prod=input("Ingrese el pructo que desea agregar a la lista: ")
